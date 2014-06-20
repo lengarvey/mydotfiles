@@ -1,0 +1,12 @@
+# use ruby [version]
+use_ruby() {
+  local ver=$1
+  if [[ -z $ver ]] && [[ -f .ruby_version ]]; then
+    ver=$(cat .ruby_version)
+  fi
+  if [[ -z $ver ]]; then
+    echo Unknown ruby version
+    exit 1
+  fi
+  load_prefix ~/.rubies/$ver
+}
