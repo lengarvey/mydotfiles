@@ -5,10 +5,8 @@ antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle lengarvey/git
-antigen bundle heroku
-antigen bundle pip
-antigen bundle lein
 antigen bundle command-not-found
+antigen bundle bundler
 
 # cool stuff?
 antigen bundle lengarvey/chruby-direnv
@@ -26,3 +24,6 @@ source /usr/local/opt/chruby/share/chruby/chruby.sh
 chruby ruby-2.1.2
 
 eval "$(direnv hook $0)"
+
+# aliases
+alias redfire="cd ~/dev/redballoon/redfire"
