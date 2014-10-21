@@ -1,0 +1,7 @@
+[user]
+	name = Leonard Garvey
+	email = lengarvey@gmail.com
+[core]
+	excludesfile = ~/.gitignore
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative

@@ -1,3 +1,8 @@
+# exports
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
+# antigen
 source $HOME/.dotfiles/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -20,9 +25,11 @@ antigen theme muse
 # Tell antigen that you're done.
 antigen apply
 
+# chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 chruby ruby-2.1.2
 
+# direnv
 eval "$(direnv hook $0)"
 
 # aliases
