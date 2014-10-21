@@ -25,3 +25,6 @@ cask install skype
 cask install steam
 cask install teamspeak-client
 cask install transmission
+cask install iterm2
+
+cask alfred link

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# clone submodules
+git submodule update --init --recursive
+
 # change to zsh
 chsh -s /bin/zsh
 
