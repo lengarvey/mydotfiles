@@ -34,3 +34,4 @@ eval "$(direnv hook $0)"
 
 # aliases
 alias redfire="cd ~/dev/redballoon/redfire"
+[[ -f /Users/artega/.sentinel/current/bin/sentinel ]] && eval "$(/Users/artega/.sentinel/current/bin/sentinel init -)"
