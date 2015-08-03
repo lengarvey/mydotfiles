@@ -19,6 +19,6 @@ ln -s ~/.dotfiles/vimrc ~/.vim
 ln -s ~/.dotfiles/vimrc/.vimrc ~/.vimrc
 
 # install brewfile
-brew tap homebrew/boneyard
+brew tap Homebrew/bundle
 
 echo "Run brew bundle!"
