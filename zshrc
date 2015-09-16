@@ -11,7 +11,6 @@ antigen use oh-my-zsh
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle lengarvey/git
 antigen bundle command-not-found
-antigen bundle bundler
 
 # cool stuff?
 antigen bundle lengarvey/chruby-direnv

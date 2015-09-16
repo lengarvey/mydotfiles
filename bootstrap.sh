@@ -18,6 +18,9 @@ ln -s ~/.dotfiles/zshrc ~/.zshrc
 ln -s ~/.dotfiles/vimrc ~/.vim
 ln -s ~/.dotfiles/vimrc/.vimrc ~/.vimrc
 
+# install tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # install brewfile
 brew tap Homebrew/bundle
 
