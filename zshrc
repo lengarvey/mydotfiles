@@ -1,6 +1,7 @@
 # exports
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+export EDITOR=vim
 
 # antigen
 source $HOME/.dotfiles/antigen/antigen.zsh
@@ -34,3 +35,5 @@ eval "$(direnv hook $0)"
 # aliases
 alias redfire="cd ~/dev/redballoon/redfire"
 [[ -f /Users/artega/.sentinel/current/bin/sentinel ]] && eval "$(/Users/artega/.sentinel/current/bin/sentinel init -)"
+
+source $HOME/.computerc
