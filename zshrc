@@ -27,7 +27,7 @@ antigen apply
 
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
-chruby ruby-2.1.2
+chruby ruby-2.2.2
 
 # direnv
 eval "$(direnv hook $0)"
