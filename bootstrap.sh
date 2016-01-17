@@ -24,4 +24,6 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # install brewfile
 brew tap Homebrew/bundle
 
-echo "Run brew bundle!"
+# install tbe bundle
+brew bundle
+
